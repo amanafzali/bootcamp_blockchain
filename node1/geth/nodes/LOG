@@ -1,0 +1,33 @@
+=============== Jan 31, 2021 (PST) ===============
+16:53:53.550175 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:53:53.554688 db@open opening
+16:53:53.555691 version@stat F·[] S·0B[] Sc·[]
+16:53:53.558858 db@janitor F·2 G·0
+16:53:53.558858 db@open done T·4.1702ms
+17:58:52.953988 memdb@flush N·38985 S·3MiB
+17:58:52.968984 memdb@flush created L0@3 N·38985 S·709KiB "loc..seq,v24":"version,v1"
+17:58:52.968984 version@stat F·[1] S·709KiB[709KiB] Sc·[0.25]
+17:58:52.971976 memdb@flush committed F·1 T·17.9888ms
+17:58:52.972974 journal@remove removed @1
+18:53:23.564201 memdb@flush N·37661 S·3MiB
+18:53:23.579290 memdb@flush created L0@5 N·37661 S·650KiB "n:\x00..ing,v58193":"n:\xff..ong,v58160"
+18:53:23.579290 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+18:53:23.581466 memdb@flush committed F·1 T·17.2647ms
+18:53:23.582283 journal@remove removed @2
+18:53:53.551811 table@compaction L0·2 -> L1·0 S·1MiB Q·76937
+18:53:53.574753 table@build created L1@6 N·14662 S·521KiB "loc..seq,v24":"version,v1"
+18:53:53.574753 version@stat F·[0 1] S·521KiB[0B 521KiB] Sc·[0.00 0.01]
+18:53:53.576748 table@compaction committed F-1 S-838KiB Ke·0 D·61984 T·24.9364ms
+18:53:53.582731 table@remove removed @5
+18:53:53.582731 table@remove removed @3
+19:47:53.565074 memdb@flush N·37798 S·3MiB
+19:47:53.579120 memdb@flush created L0@8 N·37798 S·642KiB "n:\x00..ing,v98192":"n:\xff..ong,v106919"
+19:47:53.579120 version@stat F·[1 1] S·1MiB[642KiB 521KiB] Sc·[0.25 0.01]
+19:47:53.581031 memdb@flush committed F·1 T·15.9566ms
+19:47:53.582028 journal@remove removed @4
+19:48:11.981354 table@compaction L0·1 -> L1·1 S·1MiB Q·114591
+19:48:12.000320 table@build created L1@9 N·19074 S·680KiB "loc..seq,v24":"version,v1"
+19:48:12.000320 version@stat F·[0 1] S·680KiB[0B 680KiB] Sc·[0.00 0.01]
+19:48:12.001337 table@compaction committed F-1 S-484KiB Ke·0 D·33386 T·19.9836ms
+19:48:12.002299 table@remove removed @8
+19:48:12.002299 table@remove removed @6
