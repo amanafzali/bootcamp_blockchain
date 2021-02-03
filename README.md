@@ -61,11 +61,75 @@ The Proof of Authority (PoA) algorithm is typically used for private blockchain 
     - Open the MyCrypto app, then click Change Network at the bottom left:
 
 # MyCrypto Desktop App Instructions
+
 First, you will need to get the private key of your pre-funded address and keep it handy for later.
 
 - Open up MyCrypto to get the private key of the ETH address you use to pre-fund your chain. Be sure the Kovan network is selected.
 
-![Alt Text](https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/ucb-sfc-fin-pt-08-2020-u-c/raw/master/01-Lessons/18-Blockchain/3/Activities/05-Stu_Transact/Images/get-private-key.gif)
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/verify-kovan.gif?raw=true)
+
+- Unlock your wallet using your mnemonic phrase and choose the address you want to inspect.
+
+
+- Select the ETH address you use to pre-fund your chain, and in the "Select" dropdown list, choose Wallet Info.
+
+
+- Click on the eye icon next to the Private Key field, and copy and paste the private key of the wallet. Keep this handy, as you will use it in a bit.
+
+
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/get-private-key.gif?raw=true)
+
+Now you are going to connect MyCrypto with the blockchain you created. Follow the next steps.
+
+- Open up MyCrypto, then click Change Network at the bottom left:
+
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/change-network.png?raw=true)
+
+- Click "Add Custom Node", then add the custom network information that you set in the genesis.
+
+
+- Make sure that you scroll down to choose Custom in the "Network" column to reveal more options like Chain ID:
+
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/custom-network.png?raw=true)
+
+- The chain ID must match what you came up with earlier.
+
+
+- he URL is pointing to the default RPC port on your local machine. Use http://127.0.0.1:8545.
+
+
+- Once you save and use the network, double-check that it is selected and is connected.
+
+
+Now that you are connected to your blockchain, you will need to load a private key that you created and funded on the network.
+
+- If you are logged in to another wallet, you'll need to click Change Wallet on the top right, but make sure you are connected to your custom network:
+
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/mycrypto-switch-wallet.png?raw=true)
+
+- On the left pane menu, click on "View & Send".
+
+
+- Next, click on the "Private Key" option to continue.
+
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/open-wallet-1.png?raw=true)
+
+- A new window will pop-up, paste the private key of the pre-fund wallet and click on the "Unlock" button to continue.
+
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/open-wallet-2.png?raw=true)
+
+- Looks like we're filthy rich! This is the balance that was pre-funded for this account in the genesis configuration; however, these millions of ETH tokens are just for testing purposes.
+
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/prefunded-account.png?raw=true)
+
+Now we're going to send a transaction to ourselves to test it out. Follow the next steps.
+
+- Copy the pre-fund address into the "To Address" field, then fill in an arbitrary amount of ETH:
+
+
+![picture](https://github.com/amanafzali/bootcamp_blockchain/blob/main/Images/send-transaction.gif?raw=true)
+
+- Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.
 
 
 # Blockchain Terminology Guide
